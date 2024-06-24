@@ -75,19 +75,6 @@ form.addEventListener("submit", (e) => {
   }
 });
 
-
-// const formStart = () => {
-//     for (let el of formObject){
-//         formContent.insertAdjacentHTML('afterbegin', `
-//                 <div class="mb-[10px]">
-//                     <label class="flex text-[16px] font-bold mb-[5px]" for="">${el.label}</label>
-//                     <input data-max="10" data-message="Please enter name" name="name"
-//                         class="border w-full p-[5px] h-[40px] rounded" type="text">
-//                 </div>
-//             `)
-//     }
-// }
-// formStart();
 const formStart = () => {
     for (let el of formObject){
         formContent.innerHTML += (`
